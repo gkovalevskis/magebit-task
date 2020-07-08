@@ -1,0 +1,44 @@
+@import "helper/_variables";
+header{    
+text-align: $positionCenter;
+margin-top: 5px;
+    h1{
+        font-size: 36px;
+        padding: $size15;
+        color: #8c6b48;
+        background-color: $color4;
+    }
+}
+.container {
+    max-width: 940px;
+    margin: 0 $positionAuto;
+    height: 800px;
+    table {
+        text-align: $positionCenter;
+        margin: $size20 $positionAuto;
+        border-collapse: collapse;
+        th {
+            border: $tableborder;
+        }
+        td {
+            border: $tableborder;
+            width: 300px;
+            .left {
+                width: 150px;
+            }
+            .width80{
+                width: 80%;
+              }
+            .submit{
+                border-radius: $size20;
+            }
+        }
+    }
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: $positionCenter;
+    width: 100%;
+}
+  

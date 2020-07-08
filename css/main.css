@@ -1,0 +1,77 @@
+body {
+  height: 100%;
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0px 0px 300px; }
+  body img {
+    float: right;
+    padding: 15px; }
+  body .container {
+    max-width: 700px;
+    float: none;
+    margin: 150px auto; }
+    body .container .container-box {
+      display: flex;
+      flex-wrap: wrap;
+      height: 360.812px; }
+      body .container .container-box .active-box {
+        flex: 25%;
+        background-color: white;
+        padding: 50px;
+        border-style: groove; }
+        body .container .container-box .active-box .form-group {
+          border-bottom: groove; }
+          body .container .container-box .active-box .form-group .form-control {
+            border: none;
+            padding: 15px 0px; }
+        body .container .container-box .active-box .btn-container {
+          padding-top: 20px; }
+          body .container .container-box .active-box .btn-container .forget {
+            float: right;
+            padding-top: 7px; }
+          body .container .container-box .active-box .btn-container .btn {
+            font-family: auto;
+            padding: 7px 35px;
+            border-color: #ec930c;
+            border-radius: 20px;
+            color: whitesmoke;
+            background-color: #ec930c; }
+      body .container .container-box .non-active-box {
+        flex: 25%;
+        background: rgba(7, 19, 59, 0.87);
+        padding: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        body .container .container-box .non-active-box .non-active-title {
+          color: whitesmoke; }
+        body .container .container-box .non-active-box .non-active-paragraph {
+          color: whitesmoke;
+          padding-bottom: 27px;
+          padding-top: 15px; }
+        body .container .container-box .non-active-box .btn-non-active {
+          font-family: auto;
+          padding: 7px 35px;
+          border-color: blue;
+          border-radius: 20px;
+          color: whitesmoke;
+          background-color: transparent; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%; }
+
+@media screen and (max-width: 604px) {
+  body {
+    padding-bottom: 592px; }
+
+  .container {
+    margin: 0 !important; }
+
+  .container-box {
+    display: block !important; } }
+
+/*# sourceMappingURL=main.css.map */

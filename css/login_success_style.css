@@ -1,0 +1,36 @@
+header {
+  text-align: center;
+  margin-top: 5px; }
+  header h1 {
+    font-size: 36px;
+    padding: 15px;
+    color: #8c6b48;
+    background-color: white; }
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  height: 800px; }
+  .container table {
+    text-align: center;
+    margin: 20px auto;
+    border-collapse: collapse; }
+    .container table th {
+      border: 2px solid #8c6b48; }
+    .container table td {
+      border: 2px solid #8c6b48;
+      width: 300px; }
+      .container table td .left {
+        width: 150px; }
+      .container table td .width80 {
+        width: 80%; }
+      .container table td .submit {
+        border-radius: 20px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%; }
+
+/*# sourceMappingURL=login_success_style.css.map */

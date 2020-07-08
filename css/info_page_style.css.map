@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,GAAG;EACC,UAAU,EAAE,GAAG;EACf,UAAU,ECEG,MAAM",
+"sources": ["info_page_style.scss","helper/_variables.scss"],
+"names": [],
+"file": "info_page_style.css"
+}
